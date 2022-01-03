@@ -52,7 +52,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                                 max=10000,
                                                 step=1000,
                                                 marks = {0: '0 kg', 1000: '1,000 kg', 2000: '2,000 kg', 3000: '3,000 kg', 4000: '4,000 kg', 5000: '5,000 kg', 
-                                                        6000: ',6000 kg', 7000: '7,000 kg', 8000: '8,000 kg', 9000: '9,000 kg', 10000: '10,000 kg'},
+                                                        6000: '6,000 kg', 7000: '7,000 kg', 8000: '8,000 kg', 9000: '9,000 kg', 10000: '10,000 kg'},
                                                 value=[min_payload, max_payload]
                                                 ),
 
